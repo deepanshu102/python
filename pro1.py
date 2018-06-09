@@ -1,11 +1,14 @@
-######################
-#   problem 1       #
-######################
-s='django'
-print(s[0:1])
-print(s[5:7])
-print(s[0:6])
-print(s[1:4])
-print(s[4:])
-s1=s[5:7]+s[4:5]+s[3:4]+s[2:3]+s[1:2]+s[0:1]
-print(s1[0:])
+import os
+import time
+curDir=os.getcwd(); ## Current running Directory
+print(curDir);
+os.mkdir('NEW DIR');#create a directory
+time.sleep(2);#sleep for 2sec but we can put time on miliseconds
+os.rename('NEW DIR','NewDir');## rename the existence directory(NEW DIR)
+time.sleep(2);
+os.rmdir('NewDir');##Remove the Directory
+print(os.getenv('path')) ## show the Enviroment Path
+import datetime
+now=datetime.datetime.now(); ## store current date and time
+print(now);
+print(now.year); ## print specific year
