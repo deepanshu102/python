@@ -1,0 +1,54 @@
+/*
+->  CSS FOR index2.html
+*/
+/*
+Selected Tag{
+property:value,value1...;
+property1:value;
+}
+*/
+h1{
+  font-family:monospace;
+
+}
+h2,h3{
+  color:white;
+}
+ol{
+  color: rgb(1,200,0);
+}
+div{
+background:transparent;
+}
+p{
+color:#000000;
+}
+h4{
+  color:rgba(13,90,140,0.5);
+}
+/*
+id create using #
+
+class create using .
+*/
+#d{
+  color:white;
+  width:50%
+}
+ol:hover{
+  color:white;
+}
+strong{
+
+  color: red;
+  font-size: 10;
+}
+.bor{
+  border: 3px dotted red;
+}
+body{
+  background:url("g.gif");
+}
+ul{
+  color:orange;
+}
